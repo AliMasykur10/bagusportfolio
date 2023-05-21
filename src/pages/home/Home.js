@@ -5,7 +5,9 @@ export default function HomePage() {
     <>
       <HeadTitle title="Bagus Portfolio" />
 
-      <h1>Welcome to Home Page</h1>
+      <div className="bg-blue-500 text-white w-24 rounded-lg text-center py-3 m-3 md:w-60">
+        <h1 className="text-4xl">Halo, Dunia!</h1>
+      </div>
     </>
   );
 }
