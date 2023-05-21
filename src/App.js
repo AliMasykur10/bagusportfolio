@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/home/Home";
-import AboutPage from "./pages/about/About";
+import Header from "./component/template/header/HeaderComp";
 
 function App() {
   return (
     <>
+      <Header />
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
         </Routes>
       </Router>
     </>

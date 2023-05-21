@@ -1,9 +1,11 @@
+import { Helmet } from "react-helmet";
+
 export default function HeadTitle({ title }) {
   return (
     <>
-      <head>
+      <Helmet>
         <title>{title}</title>
-      </head>
+      </Helmet>
     </>
   );
 }
