@@ -1,4 +1,4 @@
-import Container from "../../component/template/contiainer/container";
+import Container from "../../component/template/container/container";
 import HeadTitle from "../../component/template/headTitle/HeadTitle";
 
 export default function HomePage() {

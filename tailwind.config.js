@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     colors: {
       "grey-light": "#F8F8F8",
+      "blue-button": "#4353FF",
     },
   },
   plugins: [],
