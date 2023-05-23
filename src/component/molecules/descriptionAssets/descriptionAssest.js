@@ -8,7 +8,7 @@ export default function DescriptionAssets() {
           personal & commercial use.
         </p>
         <p className="mb-6">Check out the page below for all used assets.</p>
-        <p className=" underline ">See all assets</p>
+        <p className=" underline underline-offset-4">See all assets</p>
       </div>
     </>
   );
