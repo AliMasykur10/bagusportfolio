@@ -1,7 +1,7 @@
 export default function License() {
   return (
     <>
-      <div className="license w-full md:px-32 px-3 pb-28">
+      <div className="license w-full md:px-16 lg:px-32 px-3 pb-28">
         <h1 className="md:text-4xl text-2xl mb-12">License</h1>
         <div className="comp-license bg-grey-light p-10 flex divide-x-2">
           <div className="first-comp-license w-44 h-17 "></div>
